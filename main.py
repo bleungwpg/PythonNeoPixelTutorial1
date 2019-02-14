@@ -8,7 +8,7 @@ import neopixel
 
 # use D0 for old boards
 # use A3 for new boards
-pixpin = board.D0
+pixpin = board.A3
 numpix = 64
 
 strip = neopixel.NeoPixel(pixpin, numpix, brightness=0.1, auto_write=False)
